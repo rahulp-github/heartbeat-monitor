@@ -1,0 +1,14 @@
+{
+  "name": "heartbeat-monitor",
+  "version": "1.0.0",
+  "description": "Heartbeat monitoring system that detects missed heartbeats",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
