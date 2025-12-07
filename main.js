@@ -54,6 +54,7 @@ export const detectMissedHeartbeats = (events, expectedIntervalSeconds, allowedM
     return alerts;
 };
 
+// For avoiding logging during imports in tests
 if (process.argv[1].includes('main.js')) {
     const events = [
         { service: 'email', timestamp: '2025-08-04T10:00:00Z' },
